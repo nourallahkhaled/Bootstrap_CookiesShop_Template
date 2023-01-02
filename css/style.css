@@ -1,0 +1,86 @@
+/* Navbar */
+.bgaa{
+    background: rgba(243, 129, 129, 0.5);
+}
+nav a{
+    font-weight: bold;
+}
+
+/* Slider */
+.screensize{
+    height: 100vh;
+    min-height: 800px;
+    min-width: 500px;
+}
+
+/* Buttons */
+.btn-view{
+    background: #ea6464;
+    color: white;
+    width: 260px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+.mbottom{
+    margin-bottom: 50px;
+}
+.sec-head{
+    text-align: center;
+    margin: 50px 0;
+}
+.icon{
+    color: #f38181;
+    margin: 15px 0;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(243, 129, 129);
+}
+.card:hover{
+    background: linear-gradient(177deg, rgba(246,246,246,0) 25%, rgba(243,129,129,0.929030987394958) 95%);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.gradient-bg:hover{
+    background: linear-gradient(177deg, rgba(246,246,246,0) 25%, rgba(243,129,129,0.929030987394958) 95%);
+}
+
+/* About */
+.about-sec-nav{
+    color: black;
+}
+.nav-item{
+    margin: 10px 0;
+}
+.about-sec .active{
+    color: #fff;
+    background: #f38181;
+    border-radius: 5px;
+}
+
+/* UP Button */
+.fixed-arrow{
+    width: 50px;
+    color: #fff;
+    height: 45px;
+    padding-top: 6px;
+    background:rgba(243, 129, 129, 0.5);
+    border-radius: 50%;
+    bottom: 40px;
+    right: 50px;
+    position: fixed;
+    text-align: center;
+}
+
+.fixed-arrow:hover{
+    color: rgba(243, 114, 114, 0.5);
+}
+
+.padd{
+    padding-top: 99%;
+}
